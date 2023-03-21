@@ -55,7 +55,7 @@ export const PassResetForm = () => {
 
             return item;
           });
-          // store that array to the LocalStorage and show the message saying you may login now.
+          // store taht array to the LocalStorage and show the message saying you may login now.
 
           localStorage.setItem("users", JSON.stringify(temUsers));
           toast.success("New password has been updated, you may login now");
